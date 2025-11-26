@@ -1,8 +1,3 @@
-[![Build Status](https://jenkins.ivcode.org/job/iv-cores/job/gradle-www/job/main/badge/icon)](https://jenkins.ivcode.org/job/iv-cores/job/gradle-www/job/main/)
-[![Reliability Rating](https://sonar.ivcode.org/api/project_badges/measure?project=iv-cores_gradle-www&metric=reliability_rating)](https://sonar.ivcode.org/dashboard?id=iv-cores_gradle-www)
-[![Coverage](https://sonar.ivcode.org/api/project_badges/measure?project=iv-cores_gradle-www&metric=coverage)](https://sonar.ivcode.org/dashboard?id=iv-cores_gradle-www)
-[![Quality Gate Status](https://sonar.ivcode.org/api/project_badges/measure?project=iv-cores_gradle-www&metric=alert_status)](https://sonar.ivcode.org/dashboard?id=iv-cores_gradle-www)
-
 # gradle-www
 This plugin helps create a UI package that serves static resources from a Spring Boot application.
 
@@ -22,7 +17,7 @@ In the `settings.gradle.kts` file, add the plugin repository:
 // add the repository
 pluginManagement {
     repositories {
-        maven { url = uri("https://mvn.ivcode.org/mvn/snapshot") }
+        maven { url = uri("https://s3.us-west-2.amazonaws.com/maven.ivcode.org/snapshot/") }
     }
 }
 ```

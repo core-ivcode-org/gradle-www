@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
-        maven { url = uri("https://mvn.ivcode.org/mvn/snapshot") }
-        mavenCentral()
         gradlePluginPortal()
+        mavenCentral()
+        maven { url = uri("https://s3.us-west-2.amazonaws.com/maven.ivcode.org/snapshot/") }
     }
 }
 
